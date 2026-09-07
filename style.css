@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.coynot{
+    position: relative;
+}
+
+
+.coynot img{
+    width: 1540px;
+    height: 101vh;
+}
+
+.aykn{
+    position: absolute;
+    font-size: 100px;
+    margin-left: -200px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: raketa 10s   infinite alternate;
+}
+
+@keyframes raketa{
+    0%{
+        left: -200px;
+        top: 0px;
+    }
+
+    30%{
+        left: 1500px;
+        top: 0px;
+    }
+
+    45%{
+        left: 1500px;
+        transform: rotate(90deg);
+        top: 600px;
+    }
+
+    55%{
+        left: 1500px;
+        top: 600px;
+        transform: rotate(180deg);
+    }
+
+    65%{
+        left:-1300px;
+        top: 600px;
+    }
+
+}
+
